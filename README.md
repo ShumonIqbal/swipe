@@ -10,4 +10,5 @@ You can use swipe like any other jQuery event:
 $('#myobject').swipe({ swipeTime: 800, swipeX: 100, left: swipeLeftFunction, right: swipeRightFunction });
 </pre>
 
-Tweak swipeTime and swipeX to adjuct the sensitivity of the swiping gesture detection. 
+Tweak swipeTime and swipeX to adjust the sensitivity of the swiping gesture detection. 
+By default swipe will print to console for left and right gestures. 
